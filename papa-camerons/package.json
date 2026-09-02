@@ -1,21 +1,31 @@
 {
   "name": "papa-camerons",
   "version": "1.0.0",
-  "description": "",
+  "author": "Cameron Pool",
+  "description": "Pizza Web Application created from completing the Complete Intro to React v9 because... FUNDAMENTALS",
   "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "license": "ISC",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/eslint": "^9.6.1",
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.9.0",
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.6",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
