@@ -18,3 +18,8 @@ E -> 3 (leetspeak "hacker speach")
 (to make into quiz mode just collapse -> idk why I am telling myself this...)
 # What reason other than saving you time from typing out the bash commands in the terminal, is there for creating npm scripts? 
  - CI/CD (can run as github actions for ex)
+
+Apparently Dan Abromov said "its literally just js"
+so people made the extensions just .js and not .jsx
+but for us w/ eslint we need .jsx (I think i still like .jsx and .tsx)
+main takeaway is "who cares" basically. Works either way (Well i guess except for using with eslint, but maybe that is updated by now)
